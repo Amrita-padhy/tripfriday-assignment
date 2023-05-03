@@ -10,7 +10,7 @@ function Users() {
   return (
     <>
       <Box sx={{ margin: "10px" }}>
-        <Typography variant="h4" textAlign={"center"} color={"grey"}>
+        <Typography variant="h4" textAlign={"center"} color={"grey"} sx={{textDecoration:"underline"}}>
           Users
         </Typography>
         <Box

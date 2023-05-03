@@ -24,7 +24,7 @@ function UserCard({ item }) {
     <>
       <Card
       onClick={() => navigate(`userDetails/${item.id}`)}
-        variant="elevation"
+        variant="outlined"
         sx={{
           bgcolor: "whitesmoke",
           borderRadius: "5px",
